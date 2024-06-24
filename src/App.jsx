@@ -2,8 +2,8 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'*/
 import './App.css'
-import MemoizedMyComponent from './components/React.memo/MemoIzedMyComponent.jsx'
-import NamesRandom from './components/React.memo/NamesRandomMemo.jsx'
+import UseMemoAndUseCallback from './components/HookUseMemoCallback/UseMemoAndUseCallback.jsx'
+//import App1 from './components/HookUseMemoCallback/UseMemoHook.jsx'
 //import NamesRandom from './components/React.memo/NamesRandomMemo.jsx'
 //import MemoizedMyComponent from './components/React.memo/borrar.jsx'
 function App() {
@@ -11,8 +11,10 @@ function App() {
 
   return (
     <>
-      <NamesRandom></NamesRandom>
-      <MemoizedMyComponent name="Juan" age={20}></MemoizedMyComponent>
+      {/* <NamesRandom></NamesRandom> */}
+      {/* <MemoizedMyComponent name="Juan" age={20}></MemoizedMyComponent>  */}
+      {/* <App1></App1> */}
+      <UseMemoAndUseCallback></UseMemoAndUseCallback>
     </>
   )
 }
